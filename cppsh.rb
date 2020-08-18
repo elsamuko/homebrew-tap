@@ -9,7 +9,7 @@ class Cppsh < Formula
   bottle :unneeded
 
   def install
-    bin.install cppsh
+    bin.install "cppsh"
   end
 
   test do; end
