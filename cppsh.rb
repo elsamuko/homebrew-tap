@@ -6,11 +6,11 @@ class Cppsh < Formula
   license "GPL-3.0-or-later"
   head "https://github.com/elsamuko/cppsh.git"
 
-  bottle :unneeded
-
   def install
     bin.install "cppsh"
   end
 
-  test do; end
+  test do
+    system "#{bin}/cppsh", "--help"
+  end
 end

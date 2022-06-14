@@ -6,12 +6,11 @@ class Fsrc < Formula
   license "GPL-3.0-or-later"
   head "https://github.com/elsamuko/fsrc.git"
 
-  bottle :unneeded
-
   def install
-    mkdir_p "#{prefix}/bin"
-    cp_r "fsrc", "#{prefix}/bin"
+    bin.install "fsrc"
   end
 
-  test do; end
+  test do
+    system "#{bin}/fsrc", "--version"
+  end
 end
