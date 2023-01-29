@@ -1,8 +1,8 @@
 class Fsrc < Formula
   desc "Fast code search"
   homepage "https://github.com/elsamuko/fsrc"
-  url "https://github.com/elsamuko/fsrc/releases/download/v0.26/fsrc-mac-v0.26.zip"
-  sha256 "ec860d750418e02c33f57ab533067b1cd2ba126cd9ee230eb20e37cd3eeb1ce6"
+  url "https://github.com/elsamuko/fsrc/releases/download/v0.27/fsrc-mac-v0.27.zip"
+  sha256 "517ba15835513e3c607c28fef0bd09b63db0a2208952e8e9131d9712ab3b4621"
   license "GPL-3.0-or-later"
   head "https://github.com/elsamuko/fsrc.git"
 
