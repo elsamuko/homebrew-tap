@@ -1,8 +1,8 @@
 class Cppsh < Formula
   desc "C++ Scripting Interpreter"
   homepage "https://github.com/elsamuko/cppsh"
-  url "https://github.com/elsamuko/cppsh/archive/v1.1.zip"
-  sha256 "0179b231c37ac08d19934df47c0a34ffdc066744d04355b13e03a3b0e72a8e99"
+  url "https://github.com/elsamuko/cppsh/archive/v1.2.zip"
+  sha256 "2aa6b439a0ede4127cbf10ff96c75fd0803e37bd8eb862f180e42864a7c2dd13"
   license "GPL-3.0-or-later"
   head "https://github.com/elsamuko/cppsh.git"
 
